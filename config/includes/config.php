@@ -4,7 +4,7 @@ if(!isSet($_SESSION)){
 	session_start();
 }
 if (!defined('URL')){
-	define("URL", "http://".$_SERVER["SERVER_NAME"].'/projeto/SertaoConcursos'); //DEFINO A URL DO SISTEMA
+	define("URL", "http://".$_SERVER["SERVER_NAME"].'/SertaoConcursos'); //DEFINO A URL DO SISTEMA
 }
 
 //$mysqli->set_charset("utf8");
