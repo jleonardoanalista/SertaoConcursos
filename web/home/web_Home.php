@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-  </head>
-  <body>
-    
-    <header class="container-fluid">
-<a href="index.php"><img src="img/logo.png" class="img-responsive" alt=""/></a>    
-	<br/>
-	<form>
+<form>
 		<div>
 		  <input class="inp1" placeholder="Usuário:" type="text" name="nome" value=""/>
 		  <input class="inp1" placeholder="Senha:" type="password" name="senha" value=""/>
@@ -21,7 +8,6 @@
 			<button type="submit" name="cadastro" class="btn1">Entrar</button>
 		</div>
 	</form>
-</header>
   	
   <nav class="navbar navbar-default">
   <form>
@@ -59,7 +45,7 @@
   	<li class="clearfix list-inline" >
       <h3 class="">Direito Constitucional</h3>
 		<a href="#">
-			<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+			<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 		</a>
 			<span class="btn-warning badge">PREÇO: R$19,90</span> <br> 
      </li> 
@@ -67,7 +53,7 @@
      <li class="clearfix list-inline" >
 		<h3 class="">Direito Penal</h3>
 			<a href="#">
-				<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+				<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 			</a>
 				<span class="btn-warning badge">PREÇO: R$19,90</span> <br>
      </li> 
@@ -75,7 +61,7 @@
      <li class="clearfix " >
 		<h3 class="">Direito Civil</h3>
 			<a href="#">
-				<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+				<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 			</a>
 				<span class="btn-warning badge">PREÇO: R$19,90</span> <br>
      </li> 
@@ -83,7 +69,7 @@
 	<li class="clearfix list-inline" >
 		<h3 class="">Direito Humano</h3>
 			<a href="#">
-				<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+				<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 			</a>
 				<span class="btn-warning badge">PREÇO: R$19,90</span> <br>
      </li> 
@@ -91,7 +77,7 @@
      <li class="clearfix list-inline" >
 		<h3 class="">Português</h3>
 			<a href="#">
-				<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+				<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 			</a>
 				<span class="btn-warning badge">PREÇO: R$19,90</span> <br>
      </li> 
@@ -99,7 +85,7 @@
      <li class="clearfix " >
 		<h3 class="">Matemática</h3>
 		<a href="#">
-			<img src="img/logo.png" class="img-rounded img-responsive" alt=""/>
+			<img src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-rounded img-responsive" alt=""/>
 		</a>
 			<span class="btn-warning badge">PREÇO: R$19,90</span> <br>
      </li> 

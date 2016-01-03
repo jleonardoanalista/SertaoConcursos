@@ -34,37 +34,7 @@ String.prototype.reverse = function(){
 
 //FUNÇÕES DO JQUERY
 
-$(function() {
-    $( "#accordion" ).accordion();
-    
-    $( "input, textarea, select" ).addClass( "ui-corner-all ui-widget-content " );        
-    
-    $(".tip").tooltip();
-    
-    $( ".botao" ).button();     
 
-    $(".sair").button({
-      icons: {
-        primary: "ui-icon-closethick"
-      },
-      text: false
-    })
-    
-    $(".editar").button({
-      icons: {
-        primary: "ui-icon-pencil"
-      },
-      text: false
-    })
-    
-    $(".excluir").button({
-      icons: {
-        primary: "ui-icon-closethick"
-      },
-      text: false
-    })
-});
-  
 function Ocultar(id,acao){    
     if(acao==='D'){
         $( "#"+id ).removeClass( "ocultar" );
