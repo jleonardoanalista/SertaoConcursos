@@ -4,7 +4,7 @@ if(!isSet($_SESSION)){
 	session_start();
 }
 if (!defined('URL')){
-	define("URL", "http://".$_SERVER["SERVER_NAME"].'/TesteMVC'); //DEFINO A URL DO SISTEMA
+	define("URL", "http://".$_SERVER["SERVER_NAME"].'/projeto/SertaoConcursos'); //DEFINO A URL DO SISTEMA
 }
 
 //$mysqli->set_charset("utf8");
@@ -21,6 +21,8 @@ if (!defined('DIR_IMG')){
 if (!defined('DIR_JS')){
 	define("DIR_JS", "web/_estilos/js");
 }
+
+
 
 $hostname = 'localhost';
 $usuario  = 'root';
