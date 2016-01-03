@@ -1,5 +1,5 @@
-<h1>P√ÅGINA INICIAL DO SISTEMA!!!!</h1>
+<h1>P¡GINA INICIAL DO SISTEMA!!!!</h1>
 
 <?php
-
+//teste
 ?>
