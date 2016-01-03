@@ -1,10 +1,10 @@
 <div id="conteudo" class="sombra">        
     <!--AQUI VAI AS PAGINAS QUE VÃO NA VIEW-->
     <?php
-    require_once 'objetos/ClienteDTO.php';
+    //require_once 'objetos/ClienteDTO.php';
     
     if(isset($_SESSION['usuario'])){
-        
+        /**
         echo '
             <span class="direita">       
             <b>Bem-vindo: </b>'; 
@@ -16,7 +16,7 @@
         		echo'"> Alterar cadastro</a></font>';
     	echo '</span><br>';
     	
-        
+        **/
         if($pagina==NULL){  
         	$pagina = 'home';
         }
