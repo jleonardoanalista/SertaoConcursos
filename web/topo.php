@@ -9,18 +9,20 @@
         
         <!-- bootstrap  -->
         <script type="text/javascript" src="<?php echo URL.'/'.DIR_JS_UI.'/jquery-ui.min.js'; ?>"></script>
-        <script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/bootstrap.js'; ?>"></script>
-        <script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/jquery-ui.js'; ?>"></script>
         <script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/geral.js'; ?>"></script>
+    	<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/jquery-ui.js'; ?>"></script>
+        <script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/bootstrap.js'; ?>"></script>
+     	<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/jquery-1.11.2.min.js'; ?>"></script>
         
     </head>
     <body>
         
     <header class="container-fluid">
 		<a href="index.php"><img style="top:60px; width:350px;" 
-				src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-responsive" alt=""/></a>   
+				src="<?php echo URL.'/'.DIR_IMG.'/logo.png'?>" class="img-responsive" alt=""/></a>
+		<br/><br/><br/>
+		<div>
+    		<?php require_once 'menu.php';?>
+    	</div>   
 	</header>
    	
-  	<div class="direita">
-    	<?php require_once 'menu.php';?>
-    </div>

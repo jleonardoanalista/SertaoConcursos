@@ -35,15 +35,13 @@ if(isset($_SESSION['usuario'])){
 ?>
 <form action="<?php echo URL.'/controller/LoginController.php'; ?>" method="POST" name="login" id="login">
     
-    <input class="" type="text" name="nome" placeholder="Usuário">
-        
-    <input class="" type="password" name="senha" placeholder="Senha">
-    
-    <input type="submit" value="Logar" class="botao">
-    
-    <a href="<?php echo URL.'/Cadastrar/cadastrar';?>" class="botao">Cadastrar</a>
-    
-    
+    <div>
+    	<input class="inp1" type="text" name="nome" placeholder="Usuário"/>
+      
+    	<input class="inp1" type="password" name="senha" placeholder="Senha"/>
+    	
+    	<button type="submit" name="entrar" class="btnLogin">Entrar</button>
+    </div>
 </form>
 
 <?php

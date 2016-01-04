@@ -195,7 +195,7 @@ th {
 }
 
 /*=========================   TOPO     ==================================*/
-header{ background-color:#fa2d04; height:270px; width:100%; display:block; background:url(../img/bg_header.png)}
+header{ background-color:#fa2d04; height:283px; width:100%; display:block; background:url(../img/bg_header.png)}
 header img{ position:relative; margin:0 auto; display:block; }
 
 /*=========================   TOPO     ==================================*/
@@ -1441,14 +1441,13 @@ ol ol {
   list-style: none;
 }
 .list-inline {
-  padding-left: 0;
-  margin-left: -5px;
+  margin-left: 0px;
   list-style: none;
 }
 .list-inline > li {
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
+  float: left;
+  padding-right: 15px;
 }
 dl {
   margin-top: 0;
@@ -3025,25 +3024,54 @@ select[multiple].form-group-lg .form-control {
   border-radius: 4px;
 }
 .inp1{
+	margin-top: 2px;
 	float: left;
-	height: 35px;
+	height: 25px;
 	display: inline-block;
 	width: 260px;
 }
 .inp2{
 	float: left;
-	height: 35px;
+	height: 25px;
 	display: inline-block;
-	width: 200px;
+	width: 260px;
 }
-.btn1 {
+.btnLogin {
+  margin-top: 2px;
+  text-align:justify;
   float: left;
   display: inline-block;
   padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
-  height: 35px;
+  height: 25px;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btnLogin:hover{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.btnPesquisa {
+  margin-bottom: 0;
+  float: left;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: normal;
+  height: 25px;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -3058,7 +3086,7 @@ select[multiple].form-group-lg .form-control {
   border: 1px solid transparent;
   border-radius: 4px;
 }
-.btn1:hover{
+.btnPesquisa:hover{
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
