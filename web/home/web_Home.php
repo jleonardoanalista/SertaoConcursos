@@ -1,13 +1,4 @@
-<form>
-		<div>
-		  <input class="inp1" placeholder="Usuário:" type="text" name="nome" value=""/>
-		  <input class="inp1" placeholder="Senha:" type="password" name="senha" value=""/>
-		</div>
-		
-		<div>
-			<button type="submit" name="cadastro" class="btn1">Entrar</button>
-		</div>
-	</form>
+
   	
   <nav class="navbar navbar-default">
   <form>

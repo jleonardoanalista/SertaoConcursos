@@ -1,8 +1,10 @@
 <?php
-require_once 'objetos/ClienteDTO.php';
+
+//require_once 'objetos/ClienteDTO.php';
 if(isset($_SESSION['usuario'])){
 	$cliente = unserialize ($_SESSION['usuario']);
 	if($cliente->getUsu_tipo() ==  "F"){
+
 ?>    
 
 <a href="<?php echo URL.'/Cliente/';?>" class="botao">Cliente</a>

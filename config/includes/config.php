@@ -21,6 +21,9 @@ if (!defined('DIR_IMG')){
 if (!defined('DIR_JS')){
 	define("DIR_JS", "web/_estilos/js");
 }
+if (!defined('DIR_JS_UI')){
+	define("DIR_JS_UI", "web/_estilos/jquery-ui-1.11.4.custom");
+}
 
 
 
