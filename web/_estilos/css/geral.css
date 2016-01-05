@@ -2,7 +2,7 @@ body{
     position: relative;
     margin: 0 auto;
     padding: 0;  
-    background-color: #eaeaea;
+    background-color: #e2e2e2;
     height:100%;
     font-family: Helvetica, 1Tahoma, sans-serif, Arial;
 }
@@ -20,7 +20,7 @@ body{
 
 #conteudo{
     min-height: 350px;
-    width: 1000px;
+    width: 95%;
     margin: 30px auto;
     padding: 10px;
     margin-bottom: 100px;  

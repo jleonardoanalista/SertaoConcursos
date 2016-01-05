@@ -1,3 +1,5 @@
+<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/bootstrap.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/jquery-1.11.2.min.js'; ?>"></script>
   <nav class="navbar navbar-default">
   <form>
 	  <div>

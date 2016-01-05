@@ -43,6 +43,8 @@ if(isset($_SESSION['usuario'])){
     	<button type="submit" name="entrar" class="btnLogin">Entrar</button>
     </div>
 </form>
+<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/bootstrap.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo URL.'/'.DIR_JS.'/jquery-1.11.2.min.js'; ?>"></script>
 
 <?php
 }

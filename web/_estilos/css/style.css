@@ -195,7 +195,7 @@ th {
 }
 
 /*=========================   TOPO     ==================================*/
-header{ background-color:#fa2d04; height:283px; width:100%; display:block; background:url(../img/bg_header.png)}
+header{ background-color:#fa2d04; height:180px; width:100%; display:block; background-color: #33b5e5;}
 header img{ position:relative; margin:0 auto; display:block; }
 
 /*=========================   TOPO     ==================================*/
@@ -1446,8 +1446,7 @@ ol ol {
 }
 .list-inline > li {
   display: inline-block;
-  float: left;
-  padding-right: 15px;
+  float: center;
 }
 dl {
   margin-top: 0;
@@ -3024,7 +3023,6 @@ select[multiple].form-group-lg .form-control {
   border-radius: 4px;
 }
 .inp1{
-	margin-top: 2px;
 	float: left;
 	height: 25px;
 	display: inline-block;
@@ -3034,10 +3032,9 @@ select[multiple].form-group-lg .form-control {
 	float: left;
 	height: 25px;
 	display: inline-block;
-	width: 260px;
+	width: 200px;
 }
 .btnLogin {
-  margin-top: 2px;
   text-align:justify;
   float: left;
   display: inline-block;
@@ -3515,12 +3512,11 @@ tbody.collapse.in {
 }
 .dropdown-menu {
   position: absolute;
-  top: 100%;
   left: 0;
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 160px;
+  width: 260px;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
